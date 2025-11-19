@@ -1,0 +1,47 @@
+#mt {
+    text-align: center;
+    font-size: 130px;
+    font-weight: bold;
+    background: linear-gradient(100deg, darkturquoise, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#main_title2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(100deg, blue, darkturquoise);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bd {
+    background-color: lightskyblue;
+}
+
+.iconcase {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.alllinks {
+    position: relative;
+    text-align: center;
+}
+
+p a {
+    color: blue;
+    transition: 0.3s;
+    position: relative;
+    top: -352px;
+}
+
+p a:hover {
+    color: rgb(17, 160, 255)
+}
